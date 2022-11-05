@@ -1,3 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Food Quality Survey</title>
+  </head>
+  <body>
+      <h1 id="title">Pierluigi Pasta Place Survey 2022</h1>
+      <p id="description">Answer this few questions and you can win win fabulous prizes</p>
+      <form id="survey-form">
+        <fieldset>
+          <p>Survey Questionaire</p>
+          <label for="referrer">
+            How did you know about us?
+            <select id="dropdown" name="referrer">
+              <option value="">Choose an option</option>
+              <option value="Friend">From a friend</option>
+              <option value="Tv/Radio">Tv Ad</option>
+              <option value="Billboard">Billboard Ad</option>
+              <option value="Internet">Internet</option>
+              <option value="Other">Other</option>
+            </select>
+          </label>
+          <label for="shop-evaluation">
+            How do you rate our establishment? (1- Worst, 5- Best)
+            <input type="radio" id="shop-evaluation" name="shop-evaluation" value="1" class="inline" required>1
+            <input type="radio" id="shop-evaluation" name="shop-evaluation" value="2" class="inline">2
+            <input type="radio" id="shop-evaluation" name="shop-evaluation" value="3" class="inline">3
+            <input type="radio" id="shop-evaluation" name="shop-evaluation" value="4" class="inline">4
+            <input type="radio" id="shop-evaluation" name="shop-evaluation" value="5" class="inline">5
+          </label>
+          <label for="employee-evaluation">
+            How do you rate our customer service? (1- Worst, 5- Best)
+            <input type="radio" id="employee-evaluation" name="employee-valuation" value="1" class="inline" required>1
+            <input type="radio" id="employee-evaluation" name="employee-valuation" value="2" class="inline">2
+            <input type="radio" id="employee-evaluation" name="employee-valuation" value="3" class="inline">3
+            <input type="radio" id="employee-evaluation" name="employee-valuation" value="4" class="inline">4
+            <input type="radio" id="employee-evaluation" name="employee-valuation" value="5" class="inline">5
+          </label>
+          <label for="food-evaluation">
+            How do you rate our meals? (1- Worst, 5- Best)
+            <input type="radio" id="shop-evaluation" name="food-evaluation" value="1" class="inline" required>1
+            <input type="radio" id="shop-evaluation" name="food-evaluation" value="2" class="inline">2
+            <input type="radio" id="shop-evaluation" name="food-evaluation" value="3" class="inline">3
+            <input type="radio" id="shop-evaluation" name="food-evaluation" value="4" class="inline">4
+            <input type="radio" id="shop-evaluation" name="food-evaluation" value="5" class="inline">5
+          </label>
+          <label for="price-evaluation">
+            How do you rate our food prices? (1- Worst, 5- Best)
+            <input type="radio" id="shop-evaluation" name="price-evaluation" value="1" class="inline" required>1
+            <input type="radio" id="shop-evaluation" name="price-evaluation" value="2" class="inline">2
+            <input type="radio" id="shop-evaluation" name="price-evaluation" value="3" class="inline">3
+            <input type="radio" id="shop-evaluation" name="price-evaluation" value="4" class="inline">4
+            <input type="radio" id="shop-evaluation" name="price-evaluation" value="5" class="inline">5
+          </label>
+          <label for="pizza-condiments">
+            If you are a fan of our pizzas. What are your favorite condiments? (Optional - Multiple selection allowed)
+            <input type="checkbox" id ="condiments" name="condiment" value="sauce"> Extra Sauce
+            <input type="checkbox" id ="condiments" name="condiment" value="cheese"> Extra cheese
+            <input type="checkbox" id ="condiments" name="condiment" value="pineapple"> Pineapple
+            <input type="checkbox" id ="condiments" name="condiment" value="mushroom"> Mushrooms
+            <input type="checkbox" id ="condiments" name="condiment" value="tuna"> Tuna
+            <input type="checkbox" id ="condiments" name="condiment" value="bacon"> Bacon
+            <input type="checkbox" id ="condiments" name="condiment" value="ham"> Ham
+          </label>
+          <label for="comments">
+            Sugestion/Complaint Box:
+            <textarea name="box" rows="3" cols="30">Tell us how can we improve...</textarea>
+          </label>
+        </fieldset>
+        <fieldset>
+          <p>Contact Information</p>
+          <label for="name" id="name-label">
+            Name: <input id="name" name="name" type="text" placeholder="Enter your name" required>
+          </label>
+          <label for="email" id="email-label">
+            Email: <input id="email" name="email" type="email" placeholder="Enter your email" required>
+          </label>
+          <label for="number" id="number-label">
+            Age: <input id="number" name="age" type="number" min="13" max="100" placeholder="18">
+          </label>
+        </fieldset>
+      </form>
+  </body>
+  <footer>
+    <p>No Copywrite - <a href="https://github.com/rlobbert">Pierluigi Pasta Place</p>
+  </footer>
 </html>

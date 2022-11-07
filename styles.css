@@ -1,1 +1,74 @@
 /*CSS File*/
+
+h1 {
+  margin: 1em auto;
+  text-align: center;
+  font-family: Algerian;
+  color: black;
+
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+p {
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 500px;
+  min-width: 300px;
+  width: 60vw;
+  padding-bottom: 2em;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  font-size: 16px;
+  background-color: #E1AE36;
+}
+
+fieldset:last-of-type {
+  border: 0;
+  border-bottom: none;
+}
+
+
+/* Classes*/
+
+.centered-text {
+  text-align: center;
+}
+
+.fieldset-head {
+  background-image: url("https://cdn.pixabay.com/photo/2018/06/17/12/55/kitchen-3480494_960_720.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 0;
+  padding: 2rem 0;
+}
+
+.fieldset-body {
+  border-radius: 40px ;
+  border: 3px solid #919E26;
+  padding: 2rem 0;
+  background-color: #EEC5A9;
+}
+
+.button {
+  width: 100%;
+  background-color: #4CAF50;
+  border-radius: 40px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

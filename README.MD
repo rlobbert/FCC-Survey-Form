@@ -2,7 +2,7 @@
 My solution for the certification project. A simple survey for an Italian restaurant.
 
 #To-Do
-  Html Code:
-    Complete
-  CSS Code:
-    Complete
+  <br> &ensp; Html Code:
+    <br> &emsp; Complete
+  <br><br> &ensp; CSS Code:
+    <br> &emsp; Complete

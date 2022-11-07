@@ -1,8 +1,8 @@
 # FreeCodeCamp Survey form - Certification project
-My solution for the certification project. A simple survey for a Italian restaurant.
+My solution for the certification project. A simple survey for an Italian restaurant.
 
 #To-Do
   Html Code:
-    Add a Submit button
+    Complete
   CSS Code:
-    Everything
+    Complete
